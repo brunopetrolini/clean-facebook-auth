@@ -1,0 +1,8 @@
+{
+  "name": "clean-facebook-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bruno Petrolini <brunopetrolini@hotmail.com>",
+  "license": "MIT",
+  "private": false
+}
