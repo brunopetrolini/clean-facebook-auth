@@ -4,5 +4,12 @@
   "main": "index.js",
   "author": "Bruno Petrolini <brunopetrolini@hotmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
 }
