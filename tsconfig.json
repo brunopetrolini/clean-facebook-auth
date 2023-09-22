@@ -1,11 +1,20 @@
 {
   "compilerOptions": {
+    "strict": true,
     "outDir": "dist",
     "rootDir": "src",
     "target": "es2022",
     "sourceMap": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@/tests/*": ["../tests/*"],
+    }
   },
   "include": ["src"]
 }

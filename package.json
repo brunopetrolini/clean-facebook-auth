@@ -1,15 +1,20 @@
 {
   "name": "clean-facebook-auth",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main/api/index.js",
   "author": "Bruno Petrolini <brunopetrolini@hotmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "rm -rf ./dist && tsc"
+    "build": "rm -rf ./dist && tsc",
+    "start": "node ./dist/main/api/index.js"
   },
   "devDependencies": {
+    "@types/module-alias": "^2.0.2",
     "@types/node": "^20.6.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
   }
 }
